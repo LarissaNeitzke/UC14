@@ -1,0 +1,72 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #f5f1e9;
+}
+
+/* ALTERADO AQUI 👇 */
+.container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* centraliza tudo */
+  justify-content: center;
+}
+
+h1, h2 {
+  color: #5a3e2b;
+}
+
+p {
+  color: #444;
+}
+
+.imagem {
+  width: 80%;
+  max-width: 400px;
+  border-radius: 10px;
+  margin: 20px 0; /* espaço em cima e embaixo */
+}
+
+input {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  width: 80%;
+  max-width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #8b5e3c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px; /* espaço do botão */
+}
+
+button:hover {
+  background-color: #6e462a;
+}
+
+#erro {
+  color: red;
+}
+
+.galeria {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.galeria img {
+  width: 30%;
+  min-width: 150px;
+  border-radius: 10px;
+}
